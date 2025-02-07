@@ -1,0 +1,87 @@
+body {
+    background-image: url(img/circuit_network_abstract_shape_in_diagonal_shinny_background.jpg);
+    background-color: rgb(66, 195, 212);
+}
+nav {
+    background-image:url(img/pexels-felixmittermeier-956981.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.logo {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+ul {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+}
+ul li a {
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+h1 {
+    color: rgb(40, 11, 68);
+    text-align: center;
+}
+.contact-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+    max-width: 400px;
+    margin-top: 80px;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    transition: 0.3s;
+}
+.social-link img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.facebook { background-color: #1877F2; }
+.line { background-color: #00c300; }
+.instagram { background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7); }
+.threads { background-color: #0a0b0e; }
+.social-link:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+.about-section {
+    text-align: center;
+    padding: 40px 0;
+}
+.personal-info-box {
+    background-color: rgba(53, 2, 87, 0.8);
+    border: 2px solid #2193b0;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .personal-info-box h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
